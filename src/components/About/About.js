@@ -14,7 +14,7 @@ class About extends Component {
                     <h2>ABOUT</h2>                
                     <ChantinImg />        
                     <p>
-                        Hi I'm Chantin, and I'm from Philippines, a curious react developer enthusiastic in building<br />
+                        Hi, I'm Chantin, and I'm from Philippines, a curious react developer enthusiastic in building<br />
                         <strong>enriching user-centric experiences</strong> and is constantly <strong>creating to grow further.</strong>
                     </p>
                     <p>I'm always hungry to learn more about in web development. 

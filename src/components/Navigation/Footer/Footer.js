@@ -1,13 +1,14 @@
 import React from 'react';
 
 import classes from './Footer.module.css';
+import FooterItems from '../Footer/FooterItems/FooterItems'
 
 const footer = () => (
-    <header className={classes.Footer}>
+    <div className={classes.Footer}>
         <footer className={classes.DesktopOnly}>
-            Footer
+            <FooterItems />
         </footer>
-    </header>
+    </div>
 );
 
 export default footer;

@@ -4,9 +4,7 @@ import classes from './FooterItem.module.css';
 
 const footerItem = (props) => (
     <li className={classes.FooterItem}>
-        <footer
-            onClick={props.clicked}            
-            activeClassName={classes.active}>{props.children}</footer>
+        <footer>{props.children}</footer>
     </li>
 );
 

@@ -3,8 +3,14 @@ import React from 'react';
 import classes from './FooterItems.module.css';
 import FooterItem from './FooterItem/FooterItem';
 
+import { Icon } from 'antd';
+
 const footerItems = (props) => (
-    <FooterItem></FooterItem>
+    <ul className={classes.FooterItems}>
+        <FooterItem><a href="www.github.com"><Icon type="github" /></a></FooterItem>
+        <FooterItem><a href="www.github.com"><Icon type="facebook" /></a></FooterItem>
+        <FooterItem><a href="www.github.com"><Icon type="youtube" /></a></FooterItem>
+    </ul>    
 );
 
 export default footerItems;
