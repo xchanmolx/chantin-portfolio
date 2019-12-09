@@ -2,19 +2,19 @@
     height: 56px;
     width: 100%;
     position: fixed;
-    bottom: 0;    
-    color: white;
+    bottom: 0;
     background-color: #703B09;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0 20px;
     box-sizing: border-box;
     z-index: 90;
+    flex-flow: row;     
 }
 
 @media (max-width: 499px) {
-    .DesktopOnly {
-        display: none;
+    .DesktopOnly {        
+        flex-flow: row;     
     }
 }

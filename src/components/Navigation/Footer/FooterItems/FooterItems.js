@@ -5,12 +5,18 @@ import FooterItem from './FooterItem/FooterItem';
 
 import { Icon } from 'antd';
 
-const footerItems = (props) => (
+const footerItems = (props) => {
+
+    return (
     <ul className={classes.FooterItems}>
-        <FooterItem><a href="www.github.com"><Icon type="github" /></a></FooterItem>
-        <FooterItem><a href="www.facebook.com"><Icon type="facebook" /></a></FooterItem>
-        <FooterItem><a href="www.youtube.com"><Icon type="youtube" /></a></FooterItem>
-    </ul>    
-);
+        <FooterItem><a href="https://github.com/xchanmolx" target="_blank" rel="noopener noreferrer"><Icon type="github" /></a></FooterItem>
+        <FooterItem><a href="https://www.facebook.com/cmanigos" target="_blank" rel="noopener noreferrer"><Icon type="facebook" /></a></FooterItem>
+        <FooterItem><a href="https://www.youtube.com/user/xchanmolx/" target="_blank" rel="noopener noreferrer"><Icon type="youtube" /></a></FooterItem>
+        <FooterItem><a href="https://twitter.com/xchanmolx" target="_blank" rel="noopener noreferrer"><Icon type="twitter" /></a></FooterItem>
+        <FooterItem><a href="https://www.linkedin.com/in/chiantine-manigos-47b16aa9/" target="_blank" rel="noopener noreferrer"><Icon type="linkedin" /></a></FooterItem>
+        <FooterItem><a href="https://drive.google.com/open?id=1uKZS4GFCaWmdOJThSZ28-XOelpji7OkV" target="_blank" rel="noopener noreferrer"><Icon type="file-pdf" /></a></FooterItem>
+    </ul>
+    );    
+};
 
 export default footerItems;

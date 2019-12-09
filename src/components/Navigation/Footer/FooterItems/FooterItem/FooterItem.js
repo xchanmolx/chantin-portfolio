@@ -4,7 +4,7 @@ import classes from './FooterItem.module.css';
 
 const footerItem = (props) => (
     <li className={classes.FooterItem}>
-        <footer>{props.children}</footer>
+        <div>{props.children}</div>
     </li>
 );
 

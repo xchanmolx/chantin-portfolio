@@ -6,10 +6,12 @@
     flex-flow: column;
     align-items: center;
     height: 100%;
+    flex-flow: row; 
+    /* color: white; */
 }
 
 @media (min-width: 500px) {
     .FooterItems {
-        flex-flow: row;
+        flex-flow: row;     
     }
 }
