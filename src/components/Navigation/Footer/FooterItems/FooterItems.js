@@ -14,7 +14,6 @@ const footerItems = (props) => {
         <FooterItem><a href="https://www.youtube.com/user/xchanmolx/" target="_blank" rel="noopener noreferrer"><Icon type="youtube" /></a></FooterItem>
         <FooterItem><a href="https://twitter.com/xchanmolx" target="_blank" rel="noopener noreferrer"><Icon type="twitter" /></a></FooterItem>
         <FooterItem><a href="https://www.linkedin.com/in/chiantine-manigos-47b16aa9/" target="_blank" rel="noopener noreferrer"><Icon type="linkedin" /></a></FooterItem>
-        <FooterItem><a href="https://drive.google.com/open?id=1uKZS4GFCaWmdOJThSZ28-XOelpji7OkV" target="_blank" rel="noopener noreferrer"><Icon type="file-pdf" /></a></FooterItem>
     </ul>
     );    
 };

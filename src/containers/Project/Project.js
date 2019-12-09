@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 import classes from './Project.module.css';
 import Auxiliary from '../../hoc/Auxiliary/Auxiliary';
+import { Typography } from 'antd';
+
+const { Title } = Typography;
 
 class Project extends Component {
 
@@ -12,7 +15,7 @@ class Project extends Component {
         return (
             <Auxiliary>
                 <div className={classes.Project}>
-                 <h2>PROJECT</h2>                
+                 <Title style={{color: "palevioletred"}}>PROJECT</Title>                
                 </div>                            
             </Auxiliary>
         );
