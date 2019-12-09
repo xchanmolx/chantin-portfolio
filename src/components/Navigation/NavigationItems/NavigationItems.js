@@ -11,6 +11,9 @@ const navigationItems = (props) => (
         <NavigationItem link="/project"><Icon type="project" /> Project</NavigationItem>
         <NavigationItem link="/about"><Icon type="idcard" /> About</NavigationItem>
         <NavigationItem link="/contact"><Icon type="phone" /> Contact</NavigationItem>
+        <div className={classes.Resume}>
+            <a href="https://drive.google.com/open?id=1uKZS4GFCaWmdOJThSZ28-XOelpji7OkV" target="_blank" rel="noopener noreferrer"><Icon type="file-pdf" /> Resume</a>
+        </div>
     </ul>
 );
 
