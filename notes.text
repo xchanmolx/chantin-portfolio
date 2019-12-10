@@ -4,8 +4,9 @@ npm install --save react-router-dom
 npm install --save redux-thunk
 
 npm install --save antd
-npm install react-particles-js
+npm install --save react-particles-js
 npm install styled-components@beta react@^16.8 react-dom@^16.8 react-is@^16.8
+npm install --save react-animated-text
 
 git config --global user.name "xchanmolx"
 git config --global user.email "cmanigos@gmail.com

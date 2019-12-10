@@ -2,25 +2,35 @@ import React, { Component } from 'react';
 
 import classes from './About.module.css';
 import ChantinImg from '../../components/ChantinImg/ChantinImg';
-import { Typography, Divider } from 'antd';
+import { Random } from 'react-animated-text';
+import { Typography } from 'antd';
 
-const { Title, Paragraph, Text } = Typography;
+const { Title, Paragraph } = Typography;
+
+const TextRandom = () => (
+    <Random 
+    text="ABOUT" 
+    effect="stretch" 
+    effectDirection="up"
+    effectDuration={0.6}
+    effectChange={2.2} />
+);
 
 class About extends Component {    
 
     render () {
         return (
                 <div className={classes.About}>  
-                    <Title style={{color: "palevioletred"}}>ABOUT</Title>                
+                    <Title style={{color: "palevioletred"}}><TextRandom /></Title>                                    
                     <ChantinImg />                            
                     <Paragraph>
                         Hi, I'm Chantin, and I'm from Philippines, a curious react developer enthusiastic in building <strong>enriching user-centric experiences</strong> and is constantly <strong>creating to grow further.</strong>
-                    </Paragraph>                    
+                    </Paragraph>    
+                    <br />
                     <Paragraph>I'm always hungry to learn more about in web development. 
                         I look forward in bringing my focused drive to empower 
                         myself and shape the future for the greater good.
-                    </Paragraph>
-                    <Divider />
+                    </Paragraph>                    
                     <Title level={3}><u>SIMPLE FORMULA FOR LIVING</u></Title>
                     <Paragraph>Live beneath your means.</Paragraph>
                     <Paragraph>Return everything you borrow.</Paragraph>

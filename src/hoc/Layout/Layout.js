@@ -6,7 +6,6 @@ import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 import Footer from '../../components/Navigation/Footer/Footer';
 
-
 class Layout extends Component {
     state = {
         showSideDrawer: false
@@ -24,7 +23,7 @@ class Layout extends Component {
 
     render() {
          return(
-             <Auxiliary>
+             <Auxiliary>                 
                  <Toolbar drawerToggleClicked={this.sideDrawerToggleHandler} />
                  <SideDrawer
                     open={this.state.showSideDrawer}
