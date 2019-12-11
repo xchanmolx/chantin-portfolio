@@ -1,4 +1,4 @@
-Visit my portfolio site: https://chantin-4218a.web.app
+Visit my portfolio site: [Chiantine's Portfolio Site](https://chantin-4218a.web.app).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
