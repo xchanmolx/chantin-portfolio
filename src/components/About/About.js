@@ -22,7 +22,7 @@ class About extends Component {
         return (
                 <div className={classes.About}>  
                     <Title style={{color: "palevioletred"}}><TextRandom /></Title>                                    
-                    <ChantinImg />                            
+                    <ChantinImg />       
                     <Paragraph>
                         Hi, I'm Chantin, and I'm from Philippines, a curious react developer enthusiastic in building <strong>enriching user-centric experiences</strong> and is constantly <strong>creating to grow further.</strong>
                     </Paragraph>    
