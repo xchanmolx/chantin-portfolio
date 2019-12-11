@@ -1,4 +1,4 @@
-Visit my portfolio site: www.chantin-4218a.firebaseapp.com
+Visit my portfolio site: chantin-4218a.firebaseapp.com
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
