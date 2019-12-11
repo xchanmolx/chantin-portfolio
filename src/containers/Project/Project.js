@@ -16,28 +16,31 @@ const TextRandom = () => (
     effectChange={2.2} />
 );
 
+const colStyled = {
+    display: 'inline-block',
+    padding: '10px'
+}
+
 class Project extends Component {    
 
     render () {
 
         return (
-            <Auxiliary>
-                {/* <div className={classes.Project}> */}
-                 {/* <Title style={{color: "palevioletred"}}><TextRandom /></Title>                 */}
-                {/* </div>                             */}
+            <Auxiliary>                                    
                 <div className={classes.Project}>
-                    <Title style={{color: "palevioletred"}}><TextRandom /></Title>
-                    <Row>
-                        <Col span={8}>Test 1</Col>
-                        <Col span={8}>Test 2</Col>
-                        <Col span={8}>Test 3</Col>
+                    <Title style={{color: "palevioletred"}}><TextRandom /></Title>                       
+                    <Row style={{textAlign: 'center'}}>
+                        <Col span={8} style={colStyled}>
+                            Test 1
+                        </Col>
+                        <Col span={8} style={colStyled}>
+                            Test 2
+                        </Col>
+                        <Col span={8} style={colStyled}>
+                            Test 3
+                        </Col>
                     </Row>
-                    <Row>
-                        <Col span={8}>Test 1</Col>
-                        <Col span={8}>Test 2</Col>
-                        <Col span={8}>Test 3</Col>
-                    </Row>
-                </div>
+                </div>                
             </Auxiliary>
         );
     }
