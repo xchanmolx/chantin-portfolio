@@ -6,3 +6,34 @@
     margin: 10px auto;
     box-sizing: border-box;    
 }
+
+.ImgSection {        
+    height: 300px;    
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    display: inline-block;
+    margin: 10px 2%;
+}
+
+.ImgSection img {
+    height: 100%;
+}
+
+.ImgSection img:hover,
+.ImgSection img:active,
+.ImgSection img.active {    
+    border-bottom: 4px solid #40A4C8;
+    color: darkgrey;
+}
+
+@media (min-width: 500px) {   
+    .ImgSection img:hover,
+    .ImgSection img:active,
+    .ImgSection img.active {    
+            border-bottom: 4px solid #40A4C8;
+            color: darkgrey;
+    }
+}
